@@ -1,0 +1,103 @@
+{
+    "TaskId": "1d2e87eae2834d43a29e358b2d1f8a18",
+    "RequestId": "70FFBE7F-E9B1-580D-AA9A-9253FAFF3AD5",
+    "StatusText": "SUCCESS",
+    "BizDuration": 56384,
+    "SolveTime": 1714786764614,
+    "RequestTime": 1714786760060,
+    "StatusCode": 21050000,
+    "Result": {
+        "Sentences": [
+            {
+                "EndTime": 6240,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 0,
+                "Text": "我今天在马路上捡到了一百块钱，我太高兴了。",
+                "ChannelId": 0,
+                "SpeechRate": 182,
+                "EmotionValue": 7.3
+            },
+            {
+                "EndTime": 9620,
+                "SilenceDuration": 2,
+                "SpeakerId": "1",
+                "BeginTime": 8280,
+                "Text": "但是。",
+                "ChannelId": 0,
+                "SpeechRate": 89,
+                "EmotionValue": 6.1
+            },
+            {
+                "EndTime": 11880,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 10540,
+                "Text": "过了一会儿。",
+                "ChannelId": 0,
+                "SpeechRate": 223,
+                "EmotionValue": 6.7
+            },
+            {
+                "EndTime": 19860,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 12380,
+                "Text": "我把这一百块钱弄丢了，我太难过了嗯。",
+                "ChannelId": 0,
+                "SpeechRate": 128,
+                "EmotionValue": 7.4
+            },
+            {
+                "EndTime": 24460,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 20200,
+                "Text": "之后有一个好心人捡到了一百块钱。",
+                "ChannelId": 0,
+                "SpeechRate": 211,
+                "EmotionValue": 6.9
+            },
+            {
+                "EndTime": 30660,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 24640,
+                "Text": "他还给了我，我好感动啊，我非常的感谢他。",
+                "ChannelId": 0,
+                "SpeechRate": 169,
+                "EmotionValue": 7.1
+            },
+            {
+                "EndTime": 39720,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 30900,
+                "Text": "接下来又有一个人想抢走我的一百块钱，我非常的害怕啊，我好害怕呀。",
+                "ChannelId": 0,
+                "SpeechRate": 197,
+                "EmotionValue": 7.3
+            },
+            {
+                "EndTime": 49440,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 40480,
+                "Text": "又过了一会儿，我的一百块钱被抢走了，我十分的生气，他妈的，我的钱被抢走了，他妈的。",
+                "ChannelId": 0,
+                "SpeechRate": 234,
+                "EmotionValue": 7.1
+            },
+            {
+                "EndTime": 55820,
+                "SilenceDuration": 2,
+                "SpeakerId": "1",
+                "BeginTime": 52340,
+                "Text": "再然后就没有然后了。",
+                "ChannelId": 0,
+                "SpeechRate": 155,
+                "EmotionValue": 6.6
+            }
+        ]
+    }
+}

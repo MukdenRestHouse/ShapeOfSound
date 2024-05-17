@@ -105,7 +105,7 @@ accessKeyId = "LTAI5tNyTVAJ68CfWk9WtJgS"
 accessKeySecret = "IpRB5T8wkPotbibfenyWBLNKO0hq4r"
 appKey = "iExzqDYRDFOytqYU"
 # 输入录音url
-fileLink = "https://hci-proj.oss-cn-shanghai.aliyuncs.com/output_audio.wav"
+fileLink = "https://hci-proj.oss-cn-shanghai.aliyuncs.com/output.wav"
 output_file = "output.txt"
 # 执行录音文件识别
 fileTrans(accessKeyId, accessKeySecret, appKey, fileLink)

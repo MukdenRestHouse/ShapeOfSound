@@ -31,7 +31,8 @@ print(extracted_text)
 numbers = [] 
 possible = []
 with open("scores.txt", "r") as file:
-    lines = file.readlines() 
+    lines = file.readlines()
+    lines.remove(lines[0]) 
     numbers=np.loadtxt(lines, delimiter=" ", dtype=float)
     #print(numbers)
     for j in range(len(numbers)):

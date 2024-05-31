@@ -14,7 +14,7 @@ def convert_audio(input_file, output_file, target_sample_rate, target_channels=1
     audio.export(output_file, format=target_format)
 
 
-input_file = "yao.m4a"
-output_file = "output_audio.wav"
+input_file = "raw.m4a"
+output_file = "audios/output_audio.wav"
 target_sample_rate = 16000  
 convert_audio(input_file, output_file, target_sample_rate)

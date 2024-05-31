@@ -34,15 +34,24 @@ with open("scores.txt", "r") as file:
     lines = file.readlines()
     lines.remove(lines[0]) 
     numbers=np.loadtxt(lines, delimiter=" ", dtype=float)
-    #print(numbers)
-    for j in range(len(numbers)):
+    
+    if(len(lines)==1):
         for i in range(len(grading)):
-            if (numbers[j][0]>=grading[i][1][0] and numbers[j][0]<=grading[i][1][1] and numbers[j][1]>=grading[i][1][2] and numbers[j][1]<=grading[i][1][3] and numbers[j][2]>=grading[i][1][4] and numbers[j][2]<=grading[i][1][5] and numbers[j][3]>=grading[i][1][6] and numbers[j][3]<=grading[i][1][7] and numbers[j][4]>=grading[i][1][8] and numbers[j][4]<=grading[i][1][9] and numbers[j][5]>=grading[i][1][10] and numbers[j][5]<=grading[i][1][11]):
+            if (numbers[0]>=grading[i][1][0] and numbers[0]<=grading[i][1][1] and numbers[1]>=grading[i][1][2] and numbers[1]<=grading[i][1][3] and numbers[2]>=grading[i][1][4] and numbers[2]<=grading[i][1][5] and numbers[3]>=grading[i][1][6] and numbers[3]<=grading[i][1][7] and numbers[4]>=grading[i][1][8] and numbers[4]<=grading[i][1][9] and numbers[5]>=grading[i][1][10] and numbers[5]<=grading[i][1][11]):
                 possible.append(grading[i][0])
         with open("final.txt", "a", encoding="utf-8") as file:
-            file.write(extracted_text[j])
+            file.write(extracted_text[0])
             if (possible != []):
                 file.write(random.choice(possible)+'\n')
+    else:
+        for j in range(len(numbers)):
+            for i in range(len(grading)):
+                if (numbers[j][0]>=grading[i][1][0] and numbers[j][0]<=grading[i][1][1] and numbers[j][1]>=grading[i][1][2] and numbers[j][1]<=grading[i][1][3] and numbers[j][2]>=grading[i][1][4] and numbers[j][2]<=grading[i][1][5] and numbers[j][3]>=grading[i][1][6] and numbers[j][3]<=grading[i][1][7] and numbers[j][4]>=grading[i][1][8] and numbers[j][4]<=grading[i][1][9] and numbers[j][5]>=grading[i][1][10] and numbers[j][5]<=grading[i][1][11]):
+                    possible.append(grading[i][0])
+            with open("final.txt", "a", encoding="utf-8") as file:
+                file.write(extracted_text[j])
+                if (possible != []):
+                    file.write(random.choice(possible)+'\n')
         
 
 

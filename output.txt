@@ -1,21 +1,51 @@
 {
-    "TaskId": "099a819fe36146a4aba5cd75dabff3b0",
-    "RequestId": "BE327603-3EA3-501C-B63A-D147D81218E3",
+    "TaskId": "477b4fae6dee4ba8a07fe238bdc1ff5a",
+    "RequestId": "CBD95849-81CB-5B9F-8649-B57FEAF07379",
     "StatusText": "SUCCESS",
-    "BizDuration": 7402,
-    "SolveTime": 1717134829093,
-    "RequestTime": 1717134825036,
+    "BizDuration": 17621,
+    "SolveTime": 1717844174595,
+    "RequestTime": 1717844171180,
     "StatusCode": 21050000,
     "Result": {
         "Sentences": [
             {
-                "EndTime": 7380,
+                "EndTime": 4081,
                 "SilenceDuration": 0,
                 "SpeakerId": "1",
-                "BeginTime": 640,
-                "Text": "圆明园遗址公园遭区域性暴雨大风天气，造成大量树木倒伏。",
+                "BeginTime": 0,
+                "Text": "大早上的好想死，怎么回家还要上网课？",
                 "ChannelId": 0,
-                "SpeechRate": 222,
+                "SpeechRate": 235,
+                "EmotionValue": 6.7
+            },
+            {
+                "EndTime": 16579,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 4081,
+                "Text": "我明明学校里面没有课，却要被作品及补习机构安排在十点钟上一个和我未来完全没有关系的课，我还没有办法拒绝。",
+                "ChannelId": 0,
+                "SpeechRate": 235,
+                "EmotionValue": 6.7
+            },
+            {
+                "EndTime": 16834,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 16579,
+                "Text": "why? ",
+                "ChannelId": 0,
+                "SpeechRate": 235,
+                "EmotionValue": 6.7
+            },
+            {
+                "EndTime": 17599,
+                "SilenceDuration": 0,
+                "SpeakerId": "1",
+                "BeginTime": 16834,
+                "Text": "为什么？",
+                "ChannelId": 0,
+                "SpeechRate": 235,
                 "EmotionValue": 6.7
             }
         ]
